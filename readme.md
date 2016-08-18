@@ -6,7 +6,6 @@ By the end of this lesson you will be able to:
 
 * Write Javascript that communicates with a Firebase back-end
 * Integrate AngularFire into an Angular app
-* Deploy your app to Firebase Hosting
 * Implement 3-way data binding!
 * Implement a tutorial written for general industry
 
