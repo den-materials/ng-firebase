@@ -76,6 +76,8 @@ On the Firebase console, go to the database and use the following rules to make 
 
 Setting up the config object can be a little difficult.  You can look at [this documentation](https://firebase.google.com/docs/web/setup) to make it a little easier.
 
+The final step uses FB auth, but we don't have that set up yet.  Let's [enable anonymous authentication](https://firebase.google.com/docs/auth/web/anonymous-auth).
+
 Now we can use `$firebaseObject` or `$firebaseArray` in a controller to help us manage working with firebase objects or collections in Angular.
 
 ### Self Challenges
