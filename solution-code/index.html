@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Firebase Woo!</title>
+
+	<!-- Angular -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+
+	<!-- Firebase -->
+	<script src="https://www.gstatic.com/firebasejs/3.6.0/firebase.js"></script>
+
+	<!-- AngularFire -->
+	<script src="https://cdn.firebase.com/libs/angularfire/2.0.1/angularfire.min.js"></script>
+
+	<!-- My JS -->
+	<script src="app.js"></script>
+</head>
+<body ng-app="sampleApp">
+	<div ng-controller="SampleCtrl">
+		<h1>{{data.text}}</h1>
+		<input type="text" ng-model="data.text">
+	</div>
+	<div ng-controller="SampleArrayCtrl">
+		<ul>
+      <li ng-repeat="message in messages">{{ message.text }}</li>
+    </ul>
+    <!-- push a new message onto the array -->
+    <form ng-submit="addMessage()">
+      <input ng-model="newMessageText" />
+      <button type="submit">Add Message</button>
+    </form>    
+	</div>
+	<div ng-controller="SampleAuthCtrl">
+		
+	</div>
+</body>
+</html>
