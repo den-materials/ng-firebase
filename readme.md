@@ -1,6 +1,6 @@
 # 🔥AngularFire🔥
 
-<!--11:05 5 minutes -->
+<!--11:30 5 minutes -->
 <!--Hook: Getting tired of saving your own data?  Mongoose got you down?  Not to worry.  If you love building front-end stuff, and want someone else to take care of saving your data, Firebase is a great solution! -->
 
 ## Learning Objectives
@@ -30,7 +30,7 @@ What are websockets? We'll talk more about websockets in a just a minute.
 Finally, Firebase also automatically provides auth. If you are using Firebase you can easily create a way 
 to use a social login for your app!
 
-<!--11:10 5 minutes -->
+<!--11:35 5 minutes -->
 
 ### Websockets
 
@@ -45,7 +45,7 @@ Websockets are more like a *phone call*. You have the ability to hold a conversa
     <figcaption>A client can send an HTTP request to the server which can reply with status 426, "Upgrade Required". At that point the client can then send a new request with the appropriate upgrade headers while keeping the connection open.</figcaption>
 </figure>
 
-<!--11:15 30-50 minutes -->
+<!--11:40 30-50 minutes -->
 
 ## Firebase Test
 
@@ -84,7 +84,7 @@ Now we can use `$firebaseObject` or `$firebaseArray` in a controller to help us 
 
 If you are finished, have a look at the next steps in the [AngularFire guide](https://github.com/firebase/angularfire/blob/master/docs/guide/README.md).
 
-<!-- 5 minutes -->
+<!-- 12:20 5 minutes -->
 
 ### Zeb's Firebase
 
