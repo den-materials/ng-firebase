@@ -53,7 +53,7 @@ We will be using the [AngularFire](https://github.com/firebase/angularfire) libr
 Angular. Google owns Firebase and developed Angular, so they work nicely together.
 
 To introduce ourselves to this technology, we'll be using the 
-[AngularFire quick start guide](https://github.com/firebase/angularfire/blob/master/docs/quickstart.md).  This will help prepare us for the documentation you will have to read in Project 3 and throughout your careers.
+[AngularFire quick start guide](https://github.com/firebase/angularfire/blob/master/docs/quickstart.md).  We can **stop after we finish Step 6**. This will help prepare us for the documentation you will have to read in Project 3 and throughout your careers.
 
 Start by using the Quick Start Guide to set up a project and add the configuration to a basic angular app 
 that includes an ``index.html`` and ``app.js`` file.
@@ -76,11 +76,11 @@ On the Firebase console, go to the database and use the following rules to make 
 
 Setting up the config object can be a little difficult.  You can look at [this documentation](https://firebase.google.com/docs/web/setup) to make it a little easier.
 
-The final step uses FB auth, but we don't have that set up yet.  Let's [enable anonymous authentication](https://firebase.google.com/docs/auth/web/anonymous-auth).
-
-Now we can use `$firebaseObject` or `$firebaseArray` in a controller to help us manage working with firebase objects or collections in Angular.
+Once we **finish Step 6**, we can use `$firebaseObject` or `$firebaseArray` in a controller to help us manage working with firebase objects or collections in Angular.
 
 ### Self Challenges
+
+The final step uses FB auth, but we don't have that set up yet.  Let's [enable anonymous authentication](https://firebase.google.com/docs/auth/web/anonymous-auth).
 
 If you are finished, have a look at the next steps in the [AngularFire guide](https://github.com/firebase/angularfire/blob/master/docs/guide/README.md).
 
@@ -92,7 +92,7 @@ If you want to see an example of this in action, Sensus is currently experimenti
 
 ### Conclusion 
 
-If your data model is fairly simple Firebase can be a great solution. It lets you focus on the front end interactions 
+If your data model is fairly simple Firebase can be a great solution. It lets you focus on the front end interactions instead.
 
 Let's take a look at this demo [Chat Room App](https://firechat.firebaseapp.com/) to see how it can allow us to build real-time applications.
 
