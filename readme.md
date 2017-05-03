@@ -1,5 +1,6 @@
 # 🔥AngularFire🔥
 
+<!--WDI3 11:42 -->
 <!--11:30 5 minutes -->
 <!--Hook: Getting tired of saving your own data?  Mongoose got you down?  Not to worry.  If you love building front-end stuff, and want someone else to take care of saving your data, Firebase is a great solution! -->
 
@@ -30,6 +31,7 @@ What are websockets? We'll talk more about websockets in a just a minute.
 Finally, Firebase also automatically provides auth. If you are using Firebase you can easily create a way 
 to use a social login for your app!
 
+<!-- WDI3 11:45 -->
 <!--11:35 5 minutes -->
 
 ### Websockets
@@ -45,6 +47,7 @@ Websockets are more like a *phone call*. You have the ability to hold a conversa
     <figcaption>A client can send an HTTP request to the server which can reply with status 426, "Upgrade Required". At that point the client can then send a new request with the appropriate upgrade headers while keeping the connection open.</figcaption>
 </figure>
 
+<!--11:49 WDI3 -->
 <!--11:40 30-50 minutes -->
 
 ## Firebase Test
@@ -74,7 +77,7 @@ On the Firebase console, go to the database and use the following rules to make 
     
 </details>
 
-Setting up the config object can be a little difficult.  You can look at [this documentation](https://firebase.google.com/docs/web/setup) to make it a little easier.
+Setting up the config object can be a little difficult.  However, you can get a completed version of the config object by clicking the `Add Firebase to your web app` button in the project screen on your Angular dashboard.
 
 Once we **finish Step 6**, we can use `$firebaseObject` or `$firebaseArray` in a controller to help us manage working with firebase objects or collections in Angular.
 
@@ -84,6 +87,7 @@ The final step uses FB auth, but we don't have that set up yet.  Let's [enable a
 
 If you are finished, have a look at the next steps in the [AngularFire guide](https://github.com/firebase/angularfire/blob/master/docs/guide/README.md).
 
+<!--WDI3 12:27-->
 <!-- 12:20 5 minutes -->
 
 ### Zeb's Firebase
